@@ -1,0 +1,163 @@
+body
+{
+    max-height: 100vh;
+    max-width:100vh;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    background:linear-gradient(to right,DarkTurquoise,rgb(126, 196, 253));
+    text-align: center;
+    padding: 20px;
+} 
+body h1
+{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue ,0 0 20px;
+  margin-top:50px
+}
+#city-input
+{
+  padding: 0 0 0 25px;
+  font-size:15px;
+}
+.fa-magnifying-glass
+{
+  font-size: 20px;
+  color:black;
+  fill: currentColor;
+  position:relative;
+  top: 2px;
+  left:8mm;
+}
+form input
+{
+  width: 13em;
+  height: 2em;
+  border-radius: 40px;
+  background-color:yellowgreen;
+}
+form button
+{
+  border-radius:20px ;
+  width: 67px;
+  height:33px;
+  color: white;
+  margin: 0 0 0 10px;
+  background-color: brown;
+  transition: transform 0.2s ease-in-out;
+  font-weight: bold;
+}
+form input:focus
+{
+  background-color:darkgrey;
+}
+form button:hover
+{
+  cursor: pointer;
+  transform: scale(1.1,1.1);
+}
+#Weather-image
+{
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  margin:auto;
+}
+#Weather-image p:nth-child(1)
+{
+  padding-top:10px;
+}
+#Weather-image p:nth-child(2)
+{
+  padding-bottom:-40px;
+}
+#Weather-image img {
+  margin-top: -3em;
+  width:200px;
+  height:200px;
+  margin-bottom: -3em;
+}
+#Weather-report
+{
+  border-radius: 20px;
+  max-width:350px;
+  max-height:220px;
+  padding-bottom:10px;
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  margin-top: 1em;
+  color: white;
+  background-color:MediumSeaGreen;
+}
+#Weather-report h2
+{
+  background: linear-gradient(to right,orange,yellow);
+  background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+#Weather-report p
+{
+  font-size: 15px;
+}
+.date,.location,.wind,.humidity
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin: -7px 0;
+}
+.humidity svg
+{
+  width:25px;
+  height: 25px;
+  fill: white;
+  margin:0 0 0 -12px;
+}
+.date i,.location i,.wind i
+{
+  font-size: medium;
+}
+.location i
+{
+  margin:0 2px 0 -23px ;
+}
+.wind i
+{
+  margin: 0 0 0 -10px;
+}
+#Weather-display #error
+{
+  margin: 12px 0 0 0;
+  width:30em;
+  height: 26em;
+}
+footer
+{
+  background-color:white;
+  font-size: 16.5px;
+  font-weight: 500;
+  border-radius: 0.37rem 0.37rem 0 0;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+}
+header img
+{
+  position:absolute;
+  left:10px;
+  top:10px;
+  width:7em;
+}
+header
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}

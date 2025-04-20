@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="description" content="Weather Forecasting website">
+    <title>Weather Homepage</title>
+    <script src="js/weather.js" defer></script>
+    <link href="css/Weather.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="image/logo.webp" alt="logo">
+    </header>
+    <section>
+        <h1>Weather Report</h1>
+    </section>
+    <section>
+        <form onsubmit="event.preventDefault(); getWeather();">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="city-input" name="city input" placeholder="Enter the City Name">
+            <button type="submit">Enter</button>
+        </form>
+    </section>
+    <div id="Weather-display"></div>
+    <footer>
+        <p><strong>&copy; 2025 WeatherNode.All right reserved</strong></p>
+    </footer>
+</body>
+</html>
