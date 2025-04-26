@@ -35,3 +35,41 @@ cd weather-forecast
 ```bash
 start index.html
 ```
+## Usage Guide  
+- **Enter city name** in the search box.  
+- **Click "Enter"** to fetch weather details.  
+- **View temperature, humidity, wind speed & weather type**.  
+- **See dynamic UI colors** changing based on weather conditions.  
+- **Get error message** for incorrect city inputs.  
+
+
+## Weather Data Breakdown  
+
+### 🔹 **Weather Parameters**
+| **Feature**  | **Details** |
+|-------------|------------|
+| **City Search**  | User enters city name & gets real-time data |
+| **Temperature**  | Displayed in °C |
+| **Humidity**  | Shows atmospheric moisture percentage |
+| **Wind Speed**  | Measures wind flow (m/s) |
+| **Weather Icon**  | Represents current weather condition |
+| **Custom UI Colors** | Background adapts based on weather type |
+
+### 🔹 **Weather Conditions**
+| **Condition**  | **Background Color** |
+|--------------|--------------------|
+| **Clear** | `AliceBlue` |
+| **Clouds** | `Orange` |
+| **Rain** | `MidnightBlue` |
+| **Thunderstorm** | `DarkSlateBlue` |
+| **Snow** | `SkyBlue` |
+| **Drizzle** | `White` |
+| **Fog/Mist/Dust** | `MediumSeaGreen` |
+
+---
+
+## Future Enhancements  
+- **Hourly & Weekly Forecast Integration**  
+- **Geolocation-based weather detection**  
+- **Air quality & pollution index data**  
+- **Advanced UI animations & dark mode support**  
