@@ -15,18 +15,23 @@ Users can **enter a city name** to get weather details, such as **temperature, h
 - **Error handling for invalid city inputs**  
 - **Fully responsive layout & smooth animations**  
 
----
-
 ## ⚙️ Technologies Used  
 - **Frontend:** HTML, CSS  
 - **JavaScript:** API Integration, UI Interactivity  
 - **API:** OpenWeather API for live weather data  
 - **Icons & UI Components:** FontAwesome for weather visuals  
 
----
-
 ## Installation  
 To run this project locally:  
 1. **Clone the repository:**  
 ```bash
-git clone https://github.com/your-username/weather-forecast.git
+git clone https://github.com/Sarvesh7617/WeatherNode.git
+```
+2. Navigate to the project directory:
+```bash
+cd weather-forecast
+```
+3. Open index.html in a browser:
+```bash
+start index.html
+```
