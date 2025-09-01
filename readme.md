@@ -4,7 +4,8 @@
 Users can **enter a city name** to get weather details, such as **temperature, humidity, wind speed & weather conditions**. 
 
 ![image](https://github.com/user-attachments/assets/7cc43e12-8db0-4999-87c9-93b71092268b)
-
+![image](<img width="1910" height="962" alt="Screenshot 2025-09-01 141152" src="https://github.com/user-attachments/assets/0a270489-3d3c-4774-af26-01b62db89b4b" />
+)
 
 ## Features  
 - **Real-time weather forecast** via OpenWeather API  
@@ -35,6 +36,13 @@ cd weather-forecast
 ```bash
 start index.html
 ```
+
+
+## 🌐 Live Demo
+
+🔗 [View Live Project](https://weather-node-usi5.vercel.app/)
+
+
 ## Usage Guide  
 - **Enter city name** in the search box.  
 - **Click "Enter"** to fetch weather details.  
@@ -73,3 +81,11 @@ start index.html
 - **Geolocation-based weather detection**  
 - **Air quality & pollution index data**  
 - **Advanced UI animations & dark mode support**  
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this software with proper attribution.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
